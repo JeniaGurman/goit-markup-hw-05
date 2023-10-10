@@ -921,7 +921,7 @@ img {
     fill: #F4F4FD;;
 }
 
-.modal-chek-box:focus + .chek-text .chek-text-box {
+.modal-chek-box:focus + .chek-text > .chek-text-box {
     border-color: #404BBF;
 }
 
