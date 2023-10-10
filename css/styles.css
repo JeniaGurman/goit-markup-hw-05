@@ -603,18 +603,17 @@ img {
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-
-
     color: #FFFFFF;
 
     background-color: #31d0aa;
 }
 
-.footer-bottom {
+.footer-form {
     display: flex;
     gap: 24px;
 
 }
+
 
 .footer-subtitle-text {
     color: var(--WHITE, #FFF);
@@ -622,15 +621,12 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    border-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 16px;
      
 }
 
-.footer-form {
-    display: flex;
-    gap: 24px;
-    border-top: 140px;
-}
+
 
 .footer-form-input {
     width: 264px;
@@ -645,7 +641,8 @@ img {
     color: #FFFFFF;
     background-color: transparent;
     outline: transparent;
-    padding-left: 16px;
+    padding-left: 8px 16px;
+    margin-left: 80px;
     
 }
 
@@ -655,9 +652,9 @@ img {
     }
 
 .footer-form-btn {
-    font-family: "Roboto", sans-serif; 
     min-width: 165px;
     height: 40px;
+    padding: 8px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
