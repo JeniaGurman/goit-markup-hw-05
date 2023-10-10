@@ -915,13 +915,13 @@ img {
     justify-content: center;
     display: inline-flex;
 }
-.modal-chek-box:checked + .chek-text > .chek-text-box {
+.modal-chek:checked + .chek-text > .chek-text-box {
     background-color: var(--OCEAN, #404BBF);
     border: none;
     fill: #F4F4FD;;
 }
 
-.modal-chek-box:focus + .chek-text > .chek-text-box {
+.modal-chek:focus + .chek-text > .chek-text-box {
     border-color: #404BBF;
 }
 
